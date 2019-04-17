@@ -1,5 +1,6 @@
 //count digits, white spaces, others //
 #include<stdio.h>
+
 int main()
 {
     int c, i, whiteC, otherC;
@@ -7,7 +8,7 @@ int main()
 
     whiteC = otherC = 0;
     for( i=0; i<10; ++i)
-        ndigit[i] = 0;
+       { ndigit[i] = 0; }
 
     while((c=getchar()) != EOF){
          if(c >= '0' && c <= '9')
@@ -19,7 +20,7 @@ int main()
     }  
     printf("\ndigits : ");
     for(i=0; i<10; ++i)
-         printf("%d", ndigit[i]);
+        { printf("%d", ndigit[i]); }
     printf("\n white spaces = %d \n other Characters = %d\n", whiteC, otherC); 
 
 }
