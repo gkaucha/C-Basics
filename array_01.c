@@ -7,7 +7,8 @@ int main()
     int ndigit[10];
 
     whiteC = otherC = 0;
-    for( i=0; i<10; ++i)
+  
+  for( i=0; i<10; ++i)
        { ndigit[i] = 0; }
 
     while((c=getchar()) != EOF){
@@ -18,9 +19,11 @@ int main()
          else
             { ++otherC; }
     }  
-    printf("\ndigits : ");
+
+   printf("\ndigits : ");
     for(i=0; i<10; ++i)
-        { printf("%d", ndigit[i]); }
-    printf("\n white spaces = %d \n other Characters = %d\n", whiteC, otherC); 
+       { printf("%d", ndigit[i]); }
+   
+   printf("\n white spaces = %d \n other Characters = %d\n", whiteC, otherC); 
 
 }
