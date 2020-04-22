@@ -11,14 +11,14 @@ in it.</i></strong></p>
 
    <p>save the file in .c extenstiion and compile the file with compiler. In UNIX operating system, cc filename.c </p>
 
-1.2 Variables and Arithmetic Expressions
-1.3 The For Statement
-1.4 Symbolic Constants
-1.5 Character Input and Output
-1.6 Arrays
-1.7 Functions
-1.8 Arguments-Call by Value
-1.9 Character Arrays
-1.10 External Variables and Scope
+1.2 Variables and Arithmetic Expressions  <br>
+1.3 The For Statement			<br>
+1.4 Symbolic Constants			<br>
+1.5 Character Input and Output   <br>
+1.6 Arrays                       <br>
+1.7 Functions						<br>
+1.8 Arguments-Call by Value			<br>
+1.9 Character Arrays				<br>
+1.10 External Variables and Scope		<br>
 
     
