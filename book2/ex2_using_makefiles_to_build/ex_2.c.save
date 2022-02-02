@@ -1,0 +1,28 @@
+// Using makefiles to build
+/* 
+When you run the following command:
+$ make ex1
+or
+$ CFLAGS="-Wall" make ex1
+
+the program asks and does the following:
+
+1. Does the file ex1 exist already?
+2. No. Okay, is there  another files that start with ex1?
+3. Yes, it's called ex1.c. Do I know how to build .c files?
+4. Yes, I run this command, cc ex1.c -o ex1 to build them.
+5. I shall make you one ex1 by using cc to build it from ex1.c
+
+
+The second command : CFLAGS="-Wall" make ex1
+is the way to pass "modifiers" to the make command.
+
+Depending upon the UNXI shell, we can create those "environment variables" 
+that will be picked up by programs only when they run.
+
+In the above caommand, command line option -Wall to the cc command 
+that make normally runs.
+
+
+// Lets Make a Makefile
+*/
